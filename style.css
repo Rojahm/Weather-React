@@ -1,0 +1,29 @@
+body {
+  font-family: "Outfit", sans-serif;
+}
+.left-panel,
+.right-panel {
+  padding: 0;
+  height: 100vh;
+}
+.left-panel {
+  background-color: #e6ebf4;
+}
+.right-panel {
+  background-color: #7ec9cf;
+}
+.full-page {
+  max-width: 2000px;
+}
+.panel {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 80%;
+}
+.left-panel .panel {
+  margin: 40px 0 40px 40px;
+  border-radius: 10px 0 0 10px;
+}
+.right-panel .panel {
+  margin: 40px 40px 40px 0;
+  border-radius: 0 10px 10px 0;
+}
