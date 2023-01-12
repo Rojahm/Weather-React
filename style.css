@@ -1,5 +1,6 @@
 body {
   font-family: "Outfit", sans-serif;
+  color: #1a2841;
 }
 .left-panel,
 .right-panel {
@@ -16,14 +17,45 @@ body {
   max-width: 2000px;
 }
 .panel {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   height: 80%;
 }
 .left-panel .panel {
-  margin: 40px 0 40px 40px;
+  margin: 20px 0 20px 40px;
   border-radius: 10px 0 0 10px;
 }
 .right-panel .panel {
-  margin: 40px 40px 40px 0;
+  margin: 20px 40px 20px 0;
   border-radius: 0 10px 10px 0;
+}
+.today-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+}
+.current-location {
+  display: flex;
+  justify-content: space-between;
+}
+.temp {
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.forecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 65vh;
+}
+.forecast ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
